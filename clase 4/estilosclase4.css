@@ -1,0 +1,34 @@
+/* estiqueta { propiedad : valor ; } */
+
+/* aca llamo a toda una etiqueta */
+h1 {
+    color : gray;
+    font-size: 50px;
+    
+}
+
+/* aca llamo a la etiqueta DIRECTORIO */
+body{
+    background-color: rgb(254, 253, 210);
+    
+}
+
+/* llamar a una clase, esto es para: este lo puedo repetir las veces que quiera, no olvidar ponerle el "style" a las etiquetas que quiera*/
+.titular {
+
+    color: rgb(98, 195, 195);
+    font-size: 50px;
+
+}
+
+/* llamar a un id , supuestamente este no se repite*/
+#titular3{
+    color: rgb(0, 128, 255);
+    font-size: 40px;
+
+}
+
+/* lo de bordes */
+*{
+    border: black;
+}
