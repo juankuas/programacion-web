@@ -1,0 +1,67 @@
+
+body{
+    background-color: rgb(255, 250, 237);
+    max-width: 100vh;
+    max-height: 100vh;
+    
+}
+#headerproindex{
+    background-position: 100vh;
+}
+
+.headertxt{
+    position: absolute;
+    right: 10vh;
+
+}
+
+.slogan{
+    position: relative;
+    left: 52%;     
+}
+
+#unico{
+    color: rgb(209, 59, 59);
+}
+.butindex{
+    width: 500px;
+    height: 200px;
+    position: relative;
+    left: 50%;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 3px 5px rgb(0,0,0);
+}
+
+
+.main2{
+    max-width: 100%;
+    background-color: beige;
+}
+
+
+#mascomunidad{
+    position: relative;
+    left: 85%;
+    padding-top: 100px;
+    padding-bottom: 25px; 
+}
+
+
+#ptextoindex1{
+    position: relative;
+    left: 90%;
+    margin: 40px;
+    width: 400px;
+}
+
+#fotocomunidad{
+    width: 550px;
+    height: 400px;
+    position: relative;
+    left: 10%;
+    bottom: 250px;
+    box-shadow: 0px 3px 5px rgb(0,0,0);
+    border-radius: 4vh;
+
+}
