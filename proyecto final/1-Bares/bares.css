@@ -2,10 +2,13 @@ body{
     background-color: antiquewhite;
 }
 
+.barescards{
+    padding-left: 11vh;
+}
+
 .imgbares{
     width: 400px;
     height: 250px;
-    margin: 10px;
-    padding-left: 5vh;
+    margin: 5px;
     border-radius: 2vh;
 }

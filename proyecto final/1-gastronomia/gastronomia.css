@@ -2,10 +2,13 @@ body{
     background-color: antiquewhite;
 }
 
+.gastrocards{
+    padding-left: 11vh;
+}
+
 .imggastronomia{
     width: 400px;
     height: 250px;
-    margin: 10px;
-    padding-left: 5vh;
+    margin: 5px;
     border-radius: 2vh;
 }

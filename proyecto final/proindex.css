@@ -5,13 +5,21 @@ body{
     max-height: 100vh;
     
 }
-#headerproindex{
-    background-position: 100vh;
+header{
+    position: fixed;
+}
+#join{
+    height: 40px;
+    width: 80px;
+}
+main{
+    padding-top: 30px;
 }
 
 .headertxt{
-    position: absolute;
-    right: 10vh;
+    position: relative;
+    left: 500%;
+    bottom: 25px;
 
 }
 
