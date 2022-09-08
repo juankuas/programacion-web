@@ -6,47 +6,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Proyecto final</title>
     <link rel="icon" href="./imagenes proyecto index/Unknown.jpg">
-    <link rel="stylesheet" href="proindex.css">
+    <link rel="stylesheet" href="proyectoindex.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300;1,500&display=swap" rel="stylesheet">
+
 </head>
 <body>
-    <header>
-    <img style="height:40px"alt="logo" style="height: 20px;">
-        <a href="/index.html">volver(desp no va a estar)</a>
-        <div class="headertxt">
-            <a href="">About us.</a>
-            <a href="https://wa.me/2944638767" target="_blank" >Contacto.</a>
-            <input id="join" type="button" value="Join" style="color: rgb(196, 33, 33);" >
-        </div>
-        
-    </header>
+    <div class="contenedor">
+        <header>
+            <img style="height:40px"alt="logo" style="height: 20px;">  
+            <ul id="ulheader">
+                <li class="listaheader"><a href="">About us.</a></li>
+                <li class="listaheader"><a href="https://wa.me/2944638767" target="_blank" >Contacto.</a></li>
+                <li class="listaheader"><input id="join" type="button" value="Join"></li>
+            </ul>    
+        </header>
 
-    <main>
-        <h1 class="slogan">Encuentra eso <b id="unico">ÚNICO</b> que buscas.</h1>
-        
-        <a href="./1-Indumentaria/indumetaria.html" ><img class="butindex" src="./imagenes proyecto index/induindexx.png" alt="indumentaria"></a>
+        <main>
+            <h1 class="slogan">Encuentra eso <b id="unico">ÚNICO</b> que buscas.</h1>
 
-        <a href="./1-gastronomia/gastronomia.html"><img class="butindex" src="./imagenes proyecto index/gastroindexx.png" alt="gastronomia"></a>
-        <br>
-        <a href="./1-Bares/bares.html"><img class="butindex" src="" alt="bares"></a>
-    
-        <a href="./1-Maquillaje/maquillaje.html"><img class="butindex" src="" alt="maquillaje"></a>
+            <div class="butindex">
+            
+                <a href="./1-Indumentaria/indumetaria.html" ><img id="indumentariabut" src="./imagenes proyecto index/induindexx.png" alt="indumentaria"></a>
 
-    </main>
-    <main class="main2">
-        <h2 id="mascomunidad">Mas que un catalogo, una comunidad.</h2>
+                <a href="./1-gastronomia/gastronomia.html"><img id="gastronomiabut" src="./imagenes proyecto index/gastroindexx.png" alt="gastronomia"></a>
+                <br>
+                <a href="./1-Bares/bares.html"><img id="baresbut" src="" alt="bares"></a>
+            
+                <a href="./1-Maquillaje/maquillaje.html"><img id="maquillajebut" src="" alt="maquillaje"></a>
+            </div>
+            <div class="main2">
+                <h2 id="mascomunidad">Mas que un catalogo, una comunidad.</h2>
+            
+                <p id="ptextoindex1">En la argentina día a día surjen emprendimientos </b>unicos</b>, de personas que intentan 
+                    salir adelante aportando algo nuevo al mercado. Todos conocemos un amigo, una amiga o algún
+                    familiar que lleva a cabo alguno. La idea de este catalogo es que estos emprendimientos crezcan 
+                    al poder llegar a los ojos de mas gente.
+                
+                </p>
+            
+                <img id="fotocomunidad" src="./imagenes proyecto index/comunidad empre.png" alt="foto">
+            </div>        
 
-        <p id="ptextoindex1">En la argentina día a día surjen emprendimientos </b>unicos</b>, de personas que intentan 
-            salir adelante aportando algo nuevo al mercado. Todos conocemos un amigo, una amiga o algún
-            familiar que lleva a cabo alguno. La idea de este catalogo es que estos emprendimientos crezcan 
-            al poder llegar a los ojos de mas gente.
+        </main>
 
-        </p>
+        <footer>
 
-        <img id="fotocomunidad" src="./imagenes proyecto index/comunidad empre.png" alt="foto">
-    </main>
-    <footer>
-
-    </footer>
-
+        </footer>
+    </div>
 </body>
 </html>

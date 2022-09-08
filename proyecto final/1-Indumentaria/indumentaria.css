@@ -1,6 +1,6 @@
 body{
     background-color: rgb(255, 233, 203);
-
+    aborder: 2px solid red;
 }
 
 #hh2indumentaria{
@@ -17,5 +17,11 @@ body{
 }
 
 .inducards{
-    padding-left: 25vh;
+    border: 2px solid blue;
+    display: flex;
+    flex-wrap: wrap;
+    width: 90vw;
+    position: absolute;
+    margin-left: 5vw;
+
 }
