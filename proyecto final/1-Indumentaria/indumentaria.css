@@ -8,6 +8,15 @@ body{
     left: 55%;
 }
 
+.inducards{
+    aborder: 2px solid blue;
+    display: flex;
+    flex-wrap: wrap;
+    width: 90vw;
+    position: absolute;
+    margin-left: 5vw;
+
+}
 .imgindumentaria{
     width: 300px;
     height: 300px;
@@ -16,12 +25,3 @@ body{
     box-shadow: 0px 3px 5px rgb(0,0,0);
 }
 
-.inducards{
-    border: 2px solid blue;
-    display: flex;
-    flex-wrap: wrap;
-    width: 90vw;
-    position: absolute;
-    margin-left: 5vw;
-
-}

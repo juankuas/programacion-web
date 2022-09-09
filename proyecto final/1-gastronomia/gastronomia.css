@@ -3,12 +3,18 @@ body{
 }
 
 .gastrocards{
-    padding-left: 11vh;
+    display: flex;
+    flex-wrap: wrap;
+    aborder: 2px solid blue;
+    width: 90vw;
+    position: absolute;
+    margin-left: 5vw;
 }
 
 .imggastronomia{
     width: 400px;
     height: 250px;
-    margin: 5px;
+    margin: 10px;
     border-radius: 2vh;
+    box-shadow: 3px 3px 5px  rgb(0,0,0);
 }
