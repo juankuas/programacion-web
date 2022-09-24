@@ -126,39 +126,40 @@ header{
         width: 100vw;
         height: 100vh;
     }
-    .butindex{
-        border: 2px solid red;
-    }
+
     
     #indumentariabut{
-        width: 100%;
+        width: 300px;
         height: 200px;
         position: absolute;
+        margin-left: -120px;
         margin-top: 120px;
         border-radius: 10px;
         box-shadow: 0px 3px 5px rgb(0,0,0);
     }
     #gastronomiabut{
-        width: 100%;
+        width: 300px;
         height: 200px;
         position: absolute;
+        margin-left: -120px;
         margin-top: 340px;
         border-radius: 10px;
         box-shadow: 0px 3px 5px rgb(0,0,0);
     }
     #baresbut{
-        width: 100%;
+        width:300px;
         height: 200px;
         position: absolute;
+        margin-left: -120px;
         margin-top: 540px;
         border-radius: 10px;
         box-shadow: 0px 3px 5px rgb(0,0,0);
     }
     #maquillajebut{
-        width: 100%;
+        width: 300px;
         height: 200px;
         position: absolute;
-        margin-left: -100px;
+        margin-left: -120px;
         margin-top: 760px;
         border-radius: 10px;
         box-shadow: 0px 3px 5px rgb(0,0,0);
