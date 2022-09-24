@@ -14,8 +14,8 @@ header{
 }
 
 #logo{
-    width: 40px;
-    height: 20px;
+    width: 120px;
+    height: 40px;
 }
 
 #ulheader{
@@ -121,6 +121,10 @@ header{
     background-color: black;
 }
 @media only screen and (max-width: 768px) {
+    #logo{
+        width: 50px;
+        height: 25px;
+    }
     .slogan{
         font-family: 'Roboto', sans-serif;
         max-width: fit-content;
