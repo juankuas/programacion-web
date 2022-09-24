@@ -88,9 +88,12 @@ header{
     position: absolute;
     right: 20vw;
     top: 140vh;
+    font-family: 'Roboto', sans-serif;;
 }
 
 #ptextoindex1{
+    font-family: 'Roboto', sans-serif;
+    color: rgb(233, 231, 156);
     max-width: 40%;
     position: absolute;
     right:5vw;    
@@ -103,6 +106,56 @@ header{
     position: absolute;
     bottom: -90vh;    
     left: 5vw;
-
 }
 
+@media only screen and (max-width: 768px) {
+    .slogan{
+        font-family: 'Roboto', sans-serif;
+        max-width: fit-content;
+        position: absolute;
+        left: 14%;     
+        margin-top: 40px;
+    }
+
+    body{
+        width: 100vw;
+        height: 100vh;
+    }
+    
+    #indumentariabut{
+        width: 500px;
+        height: 200px;
+        position: absolute;
+        left: 35%;
+        margin-top: 100px;
+        border-radius: 10px;
+        box-shadow: 0px 3px 5px rgb(0,0,0);
+    }
+    #gastronomiabut{
+        width: 500px;
+        height: 200px;
+        position: absolute;
+        left: 35%;
+        margin-top: 320px;
+        border-radius: 10px;
+        box-shadow: 0px 3px 5px rgb(0,0,0);
+    }
+    #baresbut{
+        width: 500px;
+        height: 200px;
+        position: absolute;
+        left: 35%;
+        margin-top: 520px;
+        border-radius: 10px;
+        box-shadow: 0px 3px 5px rgb(0,0,0);
+    }
+    #maquillajebut{
+        width: 500px;
+        height: 200px;
+        position: absolute;
+        left: 35%;
+        margin-top: 740px;
+        border-radius: 10px;
+        box-shadow: 0px 3px 5px rgb(0,0,0);
+    }
+}
