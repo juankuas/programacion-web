@@ -9,7 +9,6 @@ body{
 }
 
 .inducards{
-    border: 2px solid blue;
     display: grid;
     grid-template-columns: 275px 275px 275px 275px 275px;
     width: fit-content;
