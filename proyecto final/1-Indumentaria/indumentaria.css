@@ -43,7 +43,7 @@ body{
         grid-template-rows: 251px 251px;
         width: fit-content;
         position: absolute;
-        background-color: white;
+        background-color: rgb(0, 0, 0);
     }
     
     .imgindumentaria{
