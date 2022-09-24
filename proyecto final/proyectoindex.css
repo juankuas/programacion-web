@@ -127,6 +127,7 @@ header{
     }
     .slogan{
         font-family: 'Roboto', sans-serif;
+        width: 300px;
         max-width: fit-content;
         position: absolute;
         padding-left: 14%;     
