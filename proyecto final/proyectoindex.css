@@ -178,6 +178,7 @@ header{
         width: 80px;
         height: 30px;
         position: fixed;
+        z-index: 9999;
     }
 
     header{
