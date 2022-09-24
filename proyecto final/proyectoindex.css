@@ -179,7 +179,7 @@ header{
         height: 30px;
         position: fixed;
         z-index: 9999;
-        border-radius: 1px;
+        border-radius: 4px;
     }
 
     header{
