@@ -38,14 +38,14 @@ body{
     .inducards{
         border: 2px solid blue;
         display: grid;
-        grid-template-columns: 100px 100px ;
+        grid-template-columns: 200px 200px ;
         width: fit-content;
         position: absolute;
     }
     
     .imgindumentaria{
-        width: 100px;
-        height: 150px;
+        width: 200px;
+        height: 250px;
         margin: 1px;
         border-radius: 2vh;
         box-shadow: 0px 2px 5px rgb(0,0,0);
