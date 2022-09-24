@@ -122,14 +122,14 @@ header{
 }
 @media only screen and (max-width: 768px) {
     #logo{
-        width: 50px;
-        height: 25px;
+        width: 80px;
+        height: 30px;
     }
     .slogan{
         font-family: 'Roboto', sans-serif;
         max-width: fit-content;
         position: absolute;
-        left: 14%;     
+        padding-left: 14%;     
         margin-top: 40px;
     }
 
