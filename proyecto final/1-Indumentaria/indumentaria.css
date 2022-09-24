@@ -30,12 +30,14 @@ body{
     }
     
     #hh2indumentaria{
-        position: relative;
+        position: absolute;
+        max-width: fit-content;
+        color: white;
         left: 55%;
     }
     
     .inducards{
-        border: 1px solid black;
+        border: 1px solid rgb(0, 0, 0);
         display: grid;
         grid-template-columns: 201px 201px ;
         grid-template-rows: 251px 251px;
