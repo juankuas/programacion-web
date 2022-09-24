@@ -121,6 +121,9 @@ header{
         width: 100vw;
         height: 100vh;
     }
+    .butindex{
+        border: 2px solid red;
+    }
     
     #indumentariabut{
         width: 100%;
