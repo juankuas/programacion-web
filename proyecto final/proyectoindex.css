@@ -36,7 +36,12 @@ header{
 #unico{
     color: rgb(208, 71, 71);
 }
+.butindex{
+    aborder: 2px solid red;
+    display: flex;
+    flex-wrap: wrap;
 
+}
 
 #indumentariabut{
     width: 500px;
@@ -153,6 +158,7 @@ header{
         width: 100%;
         height: 200px;
         position: absolute;
+        margin-left: -50px;
         margin-top: 760px;
         border-radius: 10px;
         box-shadow: 0px 3px 5px rgb(0,0,0);
