@@ -35,6 +35,7 @@ body{
     }
     
     .inducards{
+        border: 1px solid black;
         display: grid;
         grid-template-columns: 201px 201px ;
         grid-template-rows: 251px 251px;
