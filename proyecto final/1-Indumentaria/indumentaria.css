@@ -39,6 +39,7 @@ body{
         border: 2px solid blue;
         display: grid;
         grid-template-columns: 201px 201px ;
+        grid-template-rows: 251px 251px;
         width: fit-content;
         position: absolute;
     }
