@@ -1,0 +1,36 @@
+#indumentariabut{
+    width: 500px;
+    height: 200px;
+    position: absolute;
+    left: 35%;
+    margin-top: 100px;
+    border-radius: 10px;
+    box-shadow: 0px 3px 5px rgb(0,0,0);
+}
+#gastronomiabut{
+    width: 500px;
+    height: 200px;
+    position: absolute;
+    left: 35%;
+    margin-top: 320px;
+    border-radius: 10px;
+    box-shadow: 0px 3px 5px rgb(0,0,0);
+}
+#baresbut{
+    width: 500px;
+    height: 200px;
+    position: absolute;
+    left: 35%;
+    margin-top: 530px;
+    border-radius: 10px;
+    box-shadow: 0px 3px 5px rgb(0,0,0);
+}
+#maquillajebut{
+    width: 500px;
+    height: 200px;
+    position: absolute;
+    left: 35%;
+    margin-top: 740px;
+    border-radius: 10px;
+    box-shadow: 0px 3px 5px rgb(0,0,0);
+}
