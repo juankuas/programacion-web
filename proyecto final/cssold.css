@@ -34,3 +34,115 @@
     border-radius: 10px;
     box-shadow: 0px 3px 5px rgb(0,0,0);
 }
+
+
+
+
+
+
+#indumentariabut{
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    margin-left: -120px;
+    margin-top: 120px;
+    border-radius: 10px;
+    box-shadow: 0px 3px 5px rgb(0,0,0);
+}
+#gastronomiabut{
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    margin-left: -120px;
+    margin-top: 340px;
+    border-radius: 10px;
+    box-shadow: 0px 3px 5px rgb(0,0,0);
+}
+#baresbut{
+    width:300px;
+    height: 200px;
+    position: absolute;
+    margin-left: -120px;
+    margin-top: 550px;
+    border-radius: 10px;
+    box-shadow: 0px 3px 5px rgb(0,0,0);
+}
+#maquillajebut{
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    margin-left: -120px;
+    margin-top: 760px;
+    border-radius: 10px;
+    box-shadow: 0px 3px 5px rgb(0,0,0);
+}
+
+
+
+
+
+
+
+
+
+
+<div><a  href="./1-gastronomia/gastronomia.html"><img id="gastronomiabut" src="./imagenes proyecto index/gastroindexx.png" alt="gastronomia"></a></div>
+
+<div><a href="./1-Bares/bares.html"><img id="baresbut" src="" alt="bares"></a></div>
+
+<div><a  href="./1-Maquillaje/maquillaje.html"><img id="maquillajebut" src="" alt="maquillaje"></a></div>
+
+
+
+
+
+<div><a href="./1-Indumentaria/indumetaria.html" ><img id="indumentariabut" src="./imagenes proyecto index/induindexx.png" alt="indumentaria"></a></div>
+
+
+
+
+<header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+<a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+  <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+  <span class="fs-4"><img id="logox" src="./imagenes proyecto index/premier logo beta.png" alt="Premier"> </span>
+</a>
+
+<ul class="nav nav-pills">
+  <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Join</a></li>
+  <li class="nav-item"><a href="#" class="nav-link">About Us</a></li>
+  <li class="nav-item"><a href="https://wa.me/2944638767" target="_blank" class="nav-link">Contacto</a></li>
+  <li class="nav-item"><a href="#" class="nav-link">App</a></li>
+</ul>
+</header>
+</div>
+
+
+
+
+<div><a id="volver" href="/proyecto final/premierindex.html"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-left" viewBox="0 0 16 16">
+<path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
+</svg></a></div>
+<div><input id="buscador" type="text" placeholder="Buscar"></div>
+<div><img id="logo" src="/proyecto final/imagenes proyecto index/premier logo beta.png" alt="Premier"></div>
+
+
+
+                      <div class="btn-group" id="dropcategorias">
+                        <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                          <p id="textodropcatego">Categorias <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                          </svg></p> 
+                        </button>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Buzos</a></li>
+                          <li><a class="dropdown-item" href="#">Remeras</a></li>
+                          <li><a class="dropdown-item" href="#">Pantalones</a></li>
+                          <li><a class="dropdown-item" href="#">Zapatillas</a></li>
+                          <li><a class="dropdown-item" href="#">Camperas</a></li>
+                          <li><a class="dropdown-item" href="#">Accesorios</a></li>
+                        </ul>
+                      </div>
+
+
+
+                      rgb(39, 86, 162) color azul tranwui

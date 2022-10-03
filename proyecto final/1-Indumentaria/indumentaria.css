@@ -1,122 +1,88 @@
 body{
-    background-color: rgb(255, 255, 255);
-    margin: 0;
-    padding: 0;
+    background-color: #293c4b;
 }
-.header{
-    position: fixed;
-    display: grid;
-    grid-template-columns: 5% 78% 17%;
-    grid-auto-rows: 40px;
-    width: 100%;
-    height: 50px;
-    z-index: 9999999;
-    background-color: black;
-    margin-top: -20px;
-}
-#volver{
-    display: inline;
-    border-radius: 5px;
-    color: white;
-    position: absolute;
-    margin: 15px 10px;
-    
-}
+
 #logo{
-    width: 60px;
-    margin-top: 18px;
-    height: 20px;
-    border-radius: 8px
-}
-#h2indumentaria{
-    position: relative;
-    padding-left: 40%;
-}
-#buscador{
     display: none;
 }
-#buscadordiv{
-    display:none;
+
+#home{
+    margin-top: 3px;
 }
+
+#dropcategorias{
+    height: 30px;
+    margin-top: 4px;
+    margin-left: 5px;
+}
+
+#textodropcatego{
+    margin-top: -4px;
+}
+
 
 .inducards{
-    display: flex;
-    flex-wrap: wrap;
+
+    display: grid;
     width: fit-content;
     position: absolute;
-    margin-left: 10px;
+    grid-template-columns: repeat(4, 310px);
+    margin-top: 60px;
+    margin-left: 90px;
 }
 
-.imgindumentaria{
-    width: 270px;
-    height: 270px;
-    margin: 1px;
-    border-radius: 2vh;
-    box-shadow: 0px 2px 5px rgb(0,0,0);
+.card{
+    margin-top: 10px;
+}
+
+#imgcompucard{
+    width: 286px;
+    height: 300px;
+    border-radius: 8px;
+}
+
+.inducardscelu{
+    display: none;
 }
 
 @media only screen and (max-width: 768px){
+
+
     body{
-        background-color: rgb(0, 0, 0);
-    }
-
-    .header{
-        position: fixed;
-        display: grid;
-        grid-template-columns: 5% 78% 17%;
-        grid-auto-rows: 40px;
-        width: 100%;
-        height: 50px;
-        z-index: 9999999;
         background-color: black;
-        margin-top: -10px;
     }
-
-    #volver{
-        display: inline;
-        border-radius: 5px;
-        color: white;
-        position: absolute;
-        margin: 15px 10px;
-        
-    }
-    
-    #h2indumentaria{
-        display: none;
-
-    }
-    #buscador{
-        display: inline;
-        background-color: rgb(100, 100, 100);
-        width: 90%;
-        height: 30px;
-        margin-left: 5%;
-        margin-bottom: 5px;
-        margin-top: 11px;
-        color: white;
-    }
-
 
     #logo{
-        width: 60px;
-        margin-top: 18px;
-        height: 20px;
-        border-radius: 8px
+        position: absolute;
+        display: block;
+        width: 80px;
+        height: 30px;
+        border-radius: 10px;
+        margin-top: -28px;
+        margin-left: 7%;
+        z-index: 99999999999;
+
     }
-    
+
     .inducards{
+        display: none;
+    }
+
+    .inducardscelu{
         border: 1px solid rgb(255, 255, 255);
         display: grid;
-        grid-template-columns: 221px 221px ;
-        grid-template-rows: repeat(6,251px) ;
+        grid-template-columns: 211px 211px ;
+        grid-template-rows: repeat(5,251px) ;
         width: fit-content;
         position: absolute;
         margin-top: 50px;
         background-color: rgb(0, 0, 0);
+        margin-left: -2%;
     }
+
     
     .imgindumentaria{
-        width: 220px;
+        width: 210px;
         height: 250px;
         border-radius: 1vh;
     }

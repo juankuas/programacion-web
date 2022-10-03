@@ -6,36 +6,189 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Premier</title>
     <link rel="icon" href="/proyecto final/imagenes proyecto index/p.jpg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link rel="stylesheet" href="indumentaria.css">
+    
+
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 </head>
 
 
 <body>
-    <header>
-        <div class="header">
+    <div class="container-fluid">
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+                
+                <div class="container-fluid">
 
-            <div><a id="volver" href="/proyecto final/proyectofinal.html"> ~ </a></div>
-            <div><input id="buscador" type="text" placeholder="Buscar"></div>
-            <div><img id="logo" src="/proyecto final/imagenes proyecto index/premier logo beta.png" alt="Premier"></div>
-        </div>
-    </header>
-    <main>
-        <h2 id="h2indumentaria">Indumentaria</h2>
+                  <a class="navbar-brand" href="/proyecto final/premierindex.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-left" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
+                    </svg> <img id="logo" src="/proyecto final/imagenes proyecto index/premier logo beta.png" alt="Premier"></a>
+                    
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  
+                  
+                  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" id="home" aria-current="page" href="/proyecto final/premierindex.html">Home</a>
+                      </li>
 
-        <div class="inducards">
-            <div><img class="imgindumentaria" src="./img indumentaria/tua rem.jpg" alt="indumentaria"></div>
-            <div><img class="imgindumentaria" src="./img indumentaria/buz und.jpg" alt="indumentaria"></div>
-            <div><img class="imgindumentaria" src="./img indumentaria/buzo undef.jpg" alt="indumentaria"></div>
-            <div><img class="imgindumentaria" src="./img indumentaria/buzz undef.png" alt="indumentaria"></div>
-            <div><img class="imgindumentaria" src="./img indumentaria/undef buzo.jpg" alt="indumentaria"></div>
-            <div><img class="imgindumentaria" src="./img indumentaria/cryptochild remera.jpg" alt="indumentaria"></div>
-            <div><img class="imgindumentaria" src="./img indumentaria/Pack-x3-Oversized-T-Shirt-Negra-1-scaled.jpg" alt="indumentaria"></div>
-            <div><img class="imgindumentaria" src="./img indumentaria/buzo undef.jpg" alt="indumentaria"></div>
-        </div>
+                      <li class="nav-item dropdown" id="dropcategorias">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Categorias
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Todo</a></li>
+                            <li><a class="dropdown-item" href="#">Busos</a></li>
+                            <li><a class="dropdown-item" href="#">Remeras</a></li>
+                            <li><a class="dropdown-item" href="#">Pantalones</a></li>
+                            <li><a class="dropdown-item" href="#">Zapatillas</a></li>
+                            <li><a class="dropdown-item" href="#">Camperas</a></li>
+                            <li><a class="dropdown-item" href="#">Accesorios</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+
+
+                    <form class="d-flex" role="search">
+                      <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                      <button class="btn btn-outline-primary" type="submit"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                      </svg></button>
+                    </form>
+                  </div>
+                </div>
+              </nav>
+        </header>
+
+
+
+
+
         
-    </main>
-    <footer>
+        <main >
 
-    </footer>
+
+            <!--- compu grid-->
+
+            <div class="inducards">
+
+
+                <!--#1-->
+                <div class="card " style="width: 18rem;">
+
+                    <!--modal-->
+                    <button type="button"  data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <img src="./img indumentaria/buzo undef.jpg" class="card-img-top" id="imgcompucard" alt="Ropa">
+                    </button>
+
+                      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">Undefined</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="./img indumentaria/buzo undef.jpg" class="card-img-top"  alt="Ropa">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                     <!-- close modal--> 
+                    <div class="card-body">
+                      <h5 class="card-title">Undefined</h5>
+                      <p class="card-text">Buso Khea - $12.000</p>
+                      <a href="https://undefinedba.com" class="btn btn-primary" target="_blank">Sitio Web</a> 
+                      <a href="https://www.instagram.com/undefined_ba/" class="btn btn-primary" target="_blank">Instagram</a>
+                    </div>
+                  </div>
+                 
+
+                <!--#2-->
+                <div class="card" style="width: 18rem;">
+                    <img src="./img indumentaria/buzz undef.png" class="card-img-top" id="imgcompucard" alt="Ropa">
+                    <div class="card-body">
+                      <h5 class="card-title">Undefined</h5>
+                      <p class="card-text">Buso - $12.000</p>
+                      <a href="https://undefinedba.com" class="btn btn-primary" target="_blank">Sitio Web</a> 
+                      <a href="https://www.instagram.com/undefined_ba/" class="btn btn-primary" target="_blank">Instagram</a>
+                    </div>
+                </div>
+
+
+                <!--#2-->
+                <div class="card" style="width: 18rem;">
+                  <img src="./img indumentaria/buzo undef.jpg" class="card-img-top" id="imgcompucard" alt="Ropa">
+                  <div class="card-body">
+                    <h5 class="card-title">Undefined</h5>
+                    <p class="card-text">Buso Khea - $12.000</p>
+                    <a href="https://undefinedba.com" class="btn btn-primary" target="_blank">Sitio Web</a>
+                    <a href="https://www.instagram.com/undefined_ba/" class="btn btn-primary" target="_blank">Instagram</a>
+                  </div>
+                </div>
+
+
+                <!--#2-->
+                <div class="card" style="width: 18rem;">
+                  <img src="./img indumentaria/cryptochild remera.jpg" class="card-img-top" id="imgcompucard" alt="Ropa">
+                  <div class="card-body">
+                    <h5 class="card-title">Bullbenny</h5>
+                    <p class="card-text">Criptochild - $5.990</p>
+                    <a href="https://www.bullbenny.com.ar" class="btn btn-primary" target="_blank"> Sitio Web</a> 
+                    <a href="https://www.instagram.com/bullbenny/" class="btn btn-primary" target="_blank">Instagram</a>
+                  </div>
+                </div>
+
+
+
+                <!--#2-->
+                <div class="card" style="width: 18rem;">
+                  <img src="./img indumentaria/Pack-x3-Oversized-T-Shirt-Negra-1-scaled.jpg" class="card-img-top" id="imgcompucard" alt="Ropa">
+                  <div class="card-body">
+                    <h5 class="card-title">Undefined</h5>
+                    <p class="card-text">$12.000</p>
+                    <a href="https://undefinedba.com" class="btn btn-primary" target="_blank"> Sitio Web</a> 
+                    <a href="https://www.instagram.com/undefined_ba/" class="btn btn-primary" target="_blank">Instagram</a>
+                  </div>
+                </div>
+
+
+
+                <!--#2-->
+                <div class="card" style="width: 18rem;">
+                  <img src="./img indumentaria/undef buzo.jpg" class="card-img-top" id="imgcompucard" alt="Ropa">
+                  <div class="card-body">
+                    <h5 class="card-title">Undefined</h5>
+                    <p class="card-text">$12.000</p>
+                    <a href="https://undefinedba.com" class="btn btn-primary" target="_blank"> Sitio Web</a> 
+                    <a href="https://www.instagram.com/undefined_ba/" class="btn btn-primary" target="_blank">Instagram</a>
+                  </div>
+                </div>
+            </div>
+
+
+            <!-- celular grid-->
+
+            <div class="inducardscelu">
+                <div><img class="imgindumentaria" src="./img indumentaria/tua rem.jpg" alt="indumentaria"></div>
+                <div><img class="imgindumentaria" src="./img indumentaria/buz und.jpg" alt="indumentaria"></div>
+                <div><img class="imgindumentaria" src="./img indumentaria/buzo undef.jpg" alt="indumentaria"></div>
+                <div><img class="imgindumentaria" src="./img indumentaria/buzz undef.png" alt="indumentaria"></div>
+                <div><img class="imgindumentaria" src="./img indumentaria/undef buzo.jpg" alt="indumentaria"></div>
+                <div><img class="imgindumentaria" src="./img indumentaria/cryptochild remera.jpg" alt="indumentaria"></div>
+                <div><img class="imgindumentaria" src="./img indumentaria/Pack-x3-Oversized-T-Shirt-Negra-1-scaled.jpg" alt="indumentaria"></div>
+                <div><img class="imgindumentaria" src="./img indumentaria/buzo undef.jpg" alt="indumentaria"></div>
+            </div>
+
+        </main>
+        <footer>
+
+        </footer>
+    </div>
 </body>
 </html>
