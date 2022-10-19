@@ -1,6 +1,7 @@
+
 #headercompu{
     height: 60px;
-    background-color: rgb(32, 30, 30);
+    background-color: rgb(36, 36, 36);
 }
 
 #headercelu{
@@ -22,24 +23,37 @@
     margin-top: -40px;
 }
 
+#loginbutttt{
+    transition: 1s;
+}
+
+#loginbutttt:hover{
+    background-color: blue;
+}
+
 
 #col1{
     background-color: rgb(39, 86, 162);
     display: grid;
-    grid-template-rows: 600px;
+    grid-template-rows: 640px;
 }
 
 #col2{
     background-color: rgb(39, 86, 162);
     display: grid;
-    grid-template-rows: 600px;
+    grid-template-rows: 700px;
 }
 
-#contentimgcarro{
-    margin-top: 65px ;
+#carouselExampleFade{
+    margin-top: 85px ;
     margin-left: 55px;
+    height: 600px;
+    width: 400px;
+}
+
+#imgcarro{
+    width: 300px;
     height: 500px;
-    width: 350px;
 }
 
 #maincelular{
@@ -95,11 +109,16 @@
 #cardtext-center{
     width: 101.7%;
     left: -12px;
+    background-color:rgb(36, 36, 36) ;
+    border-radius: 0%;
+
 
 }
 
+
+
 #slogan2{
-    color: blue;
+    color: white;
     font-weight: 500;
 }
 

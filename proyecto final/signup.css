@@ -1,0 +1,21 @@
+body{
+    background-color: #293c4b;
+
+}
+.container-fluid-lg{
+    background-color: #293c4b;
+    height: 900px;
+}
+
+
+#logo{
+    display: none;
+}
+
+#home{
+    margin-top: 3px;
+}
+
+.maincont{
+    margin-top: 55px;
+}

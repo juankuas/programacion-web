@@ -1,0 +1,106 @@
+body{
+    background-color: #293c4b;
+
+}
+.container-fluid-lg{
+    background-color: #293c4b;
+    height: 800px;
+}
+
+
+#logo{
+    display: none;
+}
+
+#home{
+    margin-top: 3px;
+}
+
+
+.maincont{
+    margin-top: 55px; 
+}
+
+#lloginform{
+    border: 1px solid white;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+#email{
+    height: 45px;
+    width: 300px;
+    margin-top: 100px;
+    margin-left: 38%;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    font-size: 17px;
+    
+}
+
+#password{
+    height: 45px;
+    width: 300px;
+    margin-top: 10px;
+    margin-left: 38%;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    font-size: 17px;
+}
+
+#loginbut{
+    margin-top: 20px;
+    margin-left: 46%;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    transition: 1s;
+}
+
+#loginbut:hover{
+    margin-top: 19px;
+    margin-left: 46%;
+    border-radius: 20px;
+    background-color: rgb(114, 123, 200);
+    border: 1px solid rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+
+}
+
+
+
+#psignup{
+    margin-top: 66px;
+    margin-left: 38%;
+    max-width: fit-content;
+    border-radius: 2px solid red;
+    color: white;
+    font-size: 17px;
+}
+
+#signupbut{
+    position: absolute;
+    margin-top: -40px;
+    margin-left: 52%;
+    max-width: fit-content;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    transition: 1s;
+    font-size: 15px;
+}
+
+#signupbut:hover{
+    position: absolute;
+    margin-top: -45px;
+    margin-left: 52%;
+    max-width: fit-content;
+    border-radius: 20px;
+    background-color: rgb(114, 123, 200);
+    border: 1px solid rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+

@@ -9,9 +9,9 @@ console.log(1+1)
 
 /* para asignar variables:*/
 
-let nombre = juan // let , puedo reescribir la variable. HOY SE USA TODO CON LET.
+let nombre = "juan" // let , puedo reescribir la variable. HOY SE USA TODO CON LET.
 
-var apellido = kuas // var es global, si pongo var, desp nunca mas puedo reescribir la variable. No recomienda usarlo. 
+var apellido = "kuas" // var es global, si pongo var, desp nunca mas puedo reescribir la variable. No recomienda usarlo. 
 
 const edad = 20 // para asignar variables contantes, siempre va a valer eso. si le sumo 1, igual da 20 o tira error. 
 
