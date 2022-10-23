@@ -113,7 +113,7 @@ body{
 
     .imgindumentariainmodal{
         width: 93vw;
-        height: 480px;
+        height: 460px;
         border-radius: 0px;
         
     }
@@ -126,7 +126,7 @@ body{
     .botonguardadocelu{
         position: absolute;
         margin-top: -35px;
-        margin-left: 390px;
+        margin-left: 70vw;
         background-color: white;
         border: white;
         z-index: 10;
