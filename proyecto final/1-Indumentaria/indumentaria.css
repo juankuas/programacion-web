@@ -35,21 +35,35 @@ body{
     margin-top: 10px;
 }
 
-.botonguardado{
-    
-}
 
 #imgcompucard{
-    width: 286px;
-    height: 300px;
+    width: 282px;
+    height: 320px;
     border-radius: 8px;
+    position: relative;
+    margin-left: -6px;
 }
+
+.card-title{
+    max-width: fit-content;
+
+}
+
+.botonguardado{
+    position: absolute;
+    margin-top: -40px;
+    margin-left: 230px;
+    background-color: white;
+    border: white;
+    z-index: 10;
+}
+
 
 .inducardscelu{
     display: none;
 }
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 668px){
 
 
     body{
@@ -73,10 +87,9 @@ body{
     }
 
     .inducardscelu{
-        border: 1px solid rgb(255, 255, 255);
         display: grid;
-        grid-template-columns: 241px 241px ;
-        grid-template-rows: repeat(5,281px) ;
+        grid-template-columns: 245px 240px ;
+        grid-template-rows: repeat(4,281px) ;
         width: fit-content;
         position: absolute;
         margin-top: 50px;
@@ -86,8 +99,47 @@ body{
 
     
     .imgindumentaria{
-        width: 240px;
+        width: 242px;
         height: 280px;
-        border-radius: 1vh;
+
+        position: relative;
+        margin-left: -0px;
+    }
+
+    #modalbodycelu{
+        margin-left: 7%;
+        margin-top: -10px;
+    }
+
+    .imgindumentariainmodal{
+        width: 93vw;
+        height: 480px;
+        border-radius: 0px;
+        
+    }
+
+    .lead{
+        font-weight: 600;
+        font-size: 30px;
+    }
+
+    .botonguardadocelu{
+        position: absolute;
+        margin-top: -35px;
+        margin-left: 390px;
+        background-color: white;
+        border: white;
+        z-index: 10;
+    }
+
+    .pmodalcelu{
+        font-size: 20px;
+        font-weight: 400;
+
+    }
+
+    #btnmodalcelu{
+        width:93vw;
     }
 }
+
