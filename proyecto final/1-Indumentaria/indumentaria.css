@@ -100,7 +100,8 @@ body{
         background-color: black;
         max-width: fit-content;
         height: 280px;
-        width: 50vw;
+        width: 49vw;
+        margin-left: -7px;
 
     }
 
@@ -108,6 +109,8 @@ body{
     .imgindumentaria{
         width: 50vw;
         height: 280px;
+        position: relative;
+        margin-left: -8px;
 
 
     }
