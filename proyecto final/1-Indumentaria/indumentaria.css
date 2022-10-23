@@ -136,7 +136,7 @@ body{
         position: absolute;
         margin-top: -35px;
         margin-left: 80vw;
-        background-color: white;
+        background-color: whitesmoke;
         border: white;
         z-index: 10;
     }
@@ -149,6 +149,10 @@ body{
 
     #btnmodalcelu{
         width:93vw;
+    }
+
+    .modal-content{
+        background-color: whitesmoke;
     }
 }
 
