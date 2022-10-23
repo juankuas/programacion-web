@@ -88,8 +88,8 @@ body{
 
     .inducardscelu{
         display: grid;
-        grid-template-columns: 245px 240px ;
-        grid-template-rows: repeat(4,281px) ;
+        grid-template-columns: 242px 242px ;
+        grid-template-rows: repeat(4,288px) ;
         width: fit-content;
         position: absolute;
         margin-top: 50px;
