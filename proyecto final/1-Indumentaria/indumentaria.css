@@ -115,10 +115,6 @@ body{
 
     }
 
-    #modalbodycelu{
-        margin-left: 7%;
-        margin-top: -10px;
-    }
 
     .imgindumentariainmodal{
         width: 93vw;
@@ -144,7 +140,6 @@ body{
     .pmodalcelu{
         font-size: 20px;
         font-weight: 400;
-
     }
 
     #btnmodalcelu{
