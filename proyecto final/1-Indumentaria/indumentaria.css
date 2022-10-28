@@ -1,5 +1,6 @@
 body{
     background-color: #293c4b;
+
 }
 
 #logo{
@@ -35,13 +36,27 @@ body{
     margin-top: 10px;
 }
 
+.opnmodalcompu{
+    width: 281px;
+    height: 318px;
+    border-radius: 8px;
+}
 
 #imgcompucard{
-    width: 282px;
+    width: 288px;
     height: 320px;
-    border-radius: 8px;
+    border-radius: 6px;
     position: relative;
-    margin-left: -6px;
+    margin-left: -9px;
+    transition: 1.5s;
+    margin-top: -5px;
+}
+#imgcompucard:hover{
+    margin-left: -12px;
+    width: 295px;
+    height: 330px;
+    z-index: 99;
+    margin-top: -8px;
 }
 
 .card-title{
@@ -51,6 +66,7 @@ body{
 
 .botonguardado{
     position: absolute;
+    width: 24px;
     margin-top: -40px;
     margin-left: 230px;
     background-color: white;

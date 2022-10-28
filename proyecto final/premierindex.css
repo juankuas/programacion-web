@@ -1,12 +1,8 @@
 
-#headercompu{
-    height: 60px;
-    background-color: rgb(36, 36, 36);
+#navbar-nav{
+    margin-left: 80%;
 }
 
-#headercelu{
-    display: none;
-}
 
 #logo{
     width: 120px;
@@ -16,12 +12,7 @@
     margin-left: 5px;
 }
 
-#navbarr{
-    position: absolute;
-    max-width: fit-content;
-    margin-left: 80%;
-    margin-top: -40px;
-}
+
 
 #loginbutttt{
     transition: 1s;
@@ -33,12 +24,14 @@
 
 
 #col1{
+    margin-top: 50px;
     background-color: rgb(39, 86, 162);
     display: grid;
-    grid-template-rows: 640px;
+    grid-template-rows: 700px;
 }
 
 #col2{
+    margin-top: 50px;
     background-color: rgb(39, 86, 162);
     display: grid;
     grid-template-rows: 700px;
@@ -86,7 +79,7 @@
 #ropabut{
     max-width: fit-content;
     max-height: 201px;
-    margin-top: -430px;
+    margin-top: -500px;
     margin-left: 30%;
 }
 
@@ -96,12 +89,13 @@
     height: 200px;
     border-radius: 10px;
     box-shadow: 0px 3px 5px black;
-    transition: width 1.5s, height 1.5s;
+    transition: 1.5s;
 }
 
 #ropabutimg:hover{
     width: 420px;
     height: 210px;
+    margin-left: -10px;
     border-radius: 10px;
 }
 
@@ -134,16 +128,9 @@
 
 @media only screen and (max-width: 768px){
 
-    #headercompu{
-        display: none;
+    #navbar-nav{
+        margin-left: 0%;
     }
-
-    #headercelu{
-        display: block;
-        height: 60px;
-        background-color:  rgb(32, 30, 30);
-    }
-
     #logo{
         width: 120px;
         height: 40px;
@@ -152,14 +139,20 @@
         margin-left: 33%;
     }
 
+    #loginbutttt{
+        max-width: 200px;
+        border-radius: 5px;
+        text-align:left;
+    }   
+
 
 
     #maincelular{
         display: block;
-
     }
 
     #conteinerslogan1celu{
+        margin-top: 70px;
         width: 100%;
         height: 65px;
         background-color: bisque;
