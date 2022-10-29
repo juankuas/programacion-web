@@ -1,10 +1,6 @@
-body{
-    background-color: #293c4b;
 
-}
-.container-fluid-lg{
-    background-color: #293c4b;
-    height: 100vh
+#mainn{
+    height: 100vh;
 }
 
 
@@ -12,16 +8,29 @@ body{
     display: none;
 }
 
-#home{
+#inicio{
     margin-top: 3px;
+    font-size: 22px;
+    font-weight: 200;
 }
 
-
+#imgmain{
+    width: 100vw;
+    height: 100vh;
+}
+#imgmaincelu{
+   display: none;
+}
 
 #loginform{
+
+    z-index: 99;
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
+    border: 1px solid rgb(255, 255, 255);
+    margin-top: -70vh;
+
 }
 #email{
     height: 45px;
@@ -92,4 +101,15 @@ body{
 
 
 
+@media only screen and (max-width:668px){
+    #divmaincompu{
+        display: none;
 
+    }
+    #imgmaincelu{
+        display: block;
+        width: 100vw;
+        height: 100vh;
+    }
+    
+}
