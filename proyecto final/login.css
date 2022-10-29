@@ -4,7 +4,7 @@ body{
 }
 .container-fluid-lg{
     background-color: #293c4b;
-    height: 800px;
+    height: 100vh
 }
 
 
@@ -17,9 +17,6 @@ body{
 }
 
 
-.maincont{
-    margin-top: 55px; 
-}
 
 #loginform{
     display: flex;
