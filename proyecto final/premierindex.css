@@ -34,23 +34,23 @@
 
 #carouselExampleFade{
     max-width: 100vw;
-    height: 95vh;    
+    height: 90vh;    
 }
 
 .imgcarro{
     max-width: 100vw;
-    height: 95vh;
+    height: 90vh;
 }
 
 #auximgcarro1{
     width: 150vw;
-    height: 95vh;
+    height: 89vh;
     rotate: 1 1 1;
 
 }
 #auximgcarro2{
     width: 150vw;
-    height: 95.1vh;
+    height: 90.1vh;
 }
 
 
@@ -201,6 +201,16 @@
     font-weight: 500;
 }
 
+#appinfofooter{
+    height: 50px;
+}
+#butnappinfo{
+    margin-top: -15px;
+    height: 30px;
+}
+#pinfoapp{
+    margin-top: -5px;
+}
 
 @media only screen and (max-width: 768px){
 
