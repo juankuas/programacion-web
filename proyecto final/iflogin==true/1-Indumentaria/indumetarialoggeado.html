@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UnderHype</title>
+  <link rel="icon" href="">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <link rel="stylesheet" href="indumentaria.css">
+
+
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+    crossorigin="anonymous"></script>
+</head>
+
+
+<body>
+  <div class="container-fluid">
+    <header>
+      <nav id="headerrr" class="navbar navbar-expand-lg navbar-dark  fixed-top">
+
+        <div class="container-fluid">
+
+          <a class="navbar-brand" href="/proyecto final/iflogin==true/indexloggeado.html"><svg xmlns="http://www.w3.org/2000/svg"
+              width="16" height="16" fill="currentColor" class="bi bi-chevron-left" viewBox="0 0 16 16">
+              <path fill-rule="evenodd"
+                d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z" />
+            </svg></a>
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+            aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" id="home" aria-current="page"
+                  href="/proyecto final/iflogin==true/indexloggeado.html">Inicio</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link active" id="home" aria-current="page" href="">Guardados</a>
+              </li>
+
+              <li class="nav-item dropdown" id="dropcategorias">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Categorias
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Todo</a></li>
+                  <li><a class="dropdown-item" href="#">Buzos</a></li>
+                  <li><a class="dropdown-item" href="#">Remeras</a></li>
+                  <li><a class="dropdown-item" href="#">Pantalones</a></li>
+                  <li><a class="dropdown-item" href="#">Zapatillas</a></li>
+                  <li><a class="dropdown-item" href="#">Camperas</a></li>
+                  <li><a class="dropdown-item" href="#">Accesorios</a></li>
+                </ul>
+              </li>
+            </ul>
+
+
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+              <button class="btn btn-outline-primary" type="submit"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                  height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                  <path
+                    d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                </svg></button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+
+
+
+
+
+    <main>
+
+
+      <!--- compu grid-->
+      
+
+      <div class="inducards">
+
+
+        <!--#1-->
+        <div class="card" style="width: 18rem;">
+          
+          <!--modal-->
+          <button class="opnmodalcompu" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <img src="./img indumentaria/buzo undef.jpg" class="card-img-top" id="imgcompucard" alt="Ropa">
+          </button>
+
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel"></h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="./img indumentaria/buzo undef.jpg" class="card-img-top" alt="Ropa">
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- close modal-->
+          <div class="card-body">
+            <h5 class="card-title">Undefined </h5>
+
+            
+
+            <a href="/proyecto final/login.html"><button class="botonguardado"> 
+              <svg id="logoguardado" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-bookmark-plus" viewBox="0 0 16 16">
+                <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"/>
+                <path d="M8 4a.5.5 0 0 1 .5.5V6H10a.5.5 0 0 1 0 1H8.5v1.5a.5.5 0 0 1-1 0V7H6a.5.5 0 0 1 0-1h1.5V4.5A.5.5 0 0 1 8 4z"/>
+              </svg>
+            </button></a>
+            
+            <p class="card-text">Buzo Khea - $12.000</p>
+            <a id="webinstabut" href="https://undefinedba.com" class="btn btn-outline-primary" target="_blank"><p id="webinstap">Sitio Web</p></a>
+            <a id="webinstabut" href="https://www.instagram.com/undefined_ba/" class="btn btn-outline-primary" target="_blank"><p id="webinstap">Instagram</p></a>
+          </div>
+        </div>
+
+
+        <!--#2-->
+        <div class="card" style="width: 18rem;">
+          <!--modal-->
+          <button class="opnmodalcompu" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+            <img src="./img indumentaria/buzobostonhypemarron.png" class="card-img-top" id="imgcompucard" alt="Ropa">
+          </button>
+
+          <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel2"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel"></h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="./img indumentaria/buzobostonhypemarron.png" class="card-img-top" alt="Ropa" >
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- close modal-->
+
+          <div class="card-body">
+            <h5 class="card-title">BostonHype</h5>
+            <a href="/proyecto final/login.html"><button class="botonguardado"> 
+              <svg id="logoguardado" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-bookmark-plus" viewBox="0 0 16 16">
+                <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"/>
+                <path d="M8 4a.5.5 0 0 1 .5.5V6H10a.5.5 0 0 1 0 1H8.5v1.5a.5.5 0 0 1-1 0V7H6a.5.5 0 0 1 0-1h1.5V4.5A.5.5 0 0 1 8 4z"/>
+              </svg>
+            </button></a>
+
+            <p class="card-text">Oversized Hoodie - $9.525</p>
+            <a id="webinstabut" href="https://bostonhype.com.ar/" class="btn btn-outline-primary" target="_blank"><p id="webinstap">Sitio Web</p></a>
+            <a id="webinstabut" href="https://www.instagram.com/bostonhype.ar/" class="btn btn-outline-primary" target="_blank"><p id="webinstap">Instagram</p></a>
+          </div>
+        </div>
+
+
+        <!--#3-->
+        <div class="card" style="width: 18rem;">
+            <!--modal-->
+          <button class="opnmodalcompu" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal3">
+            <img src="./img indumentaria/Remera bostonhype.png" class="card-img-top" id="imgcompucard" alt="Ropa">
+          </button>
+
+          <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel3"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel"></h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="./img indumentaria/Remera bostonhype.png" class="card-img-top" alt="Ropa">
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- close modal-->
+
+          <div class="card-body">
+            <h5 class="card-title">BostonHype</h5>
+            <a href="/proyecto final/login.html"><button class="botonguardado"> 
+              <svg id="logoguardado" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-bookmark-plus" viewBox="0 0 16 16">
+                <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"/>
+                <path d="M8 4a.5.5 0 0 1 .5.5V6H10a.5.5 0 0 1 0 1H8.5v1.5a.5.5 0 0 1-1 0V7H6a.5.5 0 0 1 0-1h1.5V4.5A.5.5 0 0 1 8 4z"/>
+              </svg>
+            </button></a>
+
+            <p class="card-text">Remera Printed - $5.525</p>
+            <a id="webinstabut" href="https://bostonhype.com.ar/" class="btn btn-outline-primary" target="_blank"><p id="webinstap">Sitio Web</p></a>
+            <a id="webinstabut" href="https://bostonhype.com.ar/" class="btn btn-outline-primary" target="_blank"><p id="webinstap">Instagram</p></a>
+          </div>
+        </div>
+
+
+        <!--#4-->
+        <div class="card" style="width: 18rem;">
+  
+             <!--modal-->
+          <button class="opnmodalcompu" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal4">
+            <img src="./img indumentaria/buzobullbennymotosport.png" class="card-img-top" id="imgcompucard" alt="Ropa">
+          </button>
+
+          <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel4"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel"></h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="./img indumentaria/buzobullbennymotosport.png" class="card-img-top" alt="Ropa">
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- close modal-->
+
+          
+          <div class="card-body">
+            <h5 class="card-title">Bullbenny</h5>
+            <a href="/proyecto final/login.html"><button class="botonguardado"> 
+              <svg id="logoguardado" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-bookmark-plus" viewBox="0 0 16 16">
+                <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"/>
+                <path d="M8 4a.5.5 0 0 1 .5.5V6H10a.5.5 0 0 1 0 1H8.5v1.5a.5.5 0 0 1-1 0V7H6a.5.5 0 0 1 0-1h1.5V4.5A.5.5 0 0 1 8 4z"/>
+              </svg>
+            </button></a>
+
+            <p class="card-text">Criptochild - $5.990</p>
+            <a id="webinstabut" href="https://www.bullbenny.com.ar" class="btn btn-outline-primary" target="_blank"><p id="webinstap">Sitio Web</p></a>
+            <a id="webinstabut" href="https://www.instagram.com/bullbenny/" class="btn btn-outline-primary" target="_blank"><p id="webinstap">Instagram</p></a>
+          </div>
+        </div>
+
+
+
+        <!--#5-->
+        <div class="card" style="width: 18rem;">
+          <!--modal-->
+          <button class="opnmodalcompu" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal5">
+            <img src="./img indumentaria/Pack-x3-Oversized-T-Shirt-Negra-1-scaled.jpg" class="card-img-top" id="imgcompucard" alt="Ropa">
+          </button>
+
+          <div class="modal fade" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel5"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel"></h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="./img indumentaria/Pack-x3-Oversized-T-Shirt-Negra-1-scaled.jpg" class="card-img-top" alt="Ropa">
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- close modal-->
+          
+
+   
+          <div class="card-body">
+            <h5 class="card-title">BostonHype</h5>
+            <a href="/proyecto final/login.html"><button class="botonguardado"> 
+              <svg id="logoguardado" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-bookmark-plus" viewBox="0 0 16 16">
+                <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"/>
+                <path d="M8 4a.5.5 0 0 1 .5.5V6H10a.5.5 0 0 1 0 1H8.5v1.5a.5.5 0 0 1-1 0V7H6a.5.5 0 0 1 0-1h1.5V4.5A.5.5 0 0 1 8 4z"/>
+              </svg>
+            </button></a>
+            <p class="card-text">Pack x3 - $12.000</p>
+            <a id="webinstabut" href="https://bostonhype.com.ar/" class="btn btn-outline-primary" target="_blank"><p id="webinstap">Sitio Web</p></a>
+            <a id="webinstabut" href="https://www.instagram.com/bostonhype.ar/" class="btn btn-outline-primary" target="_blank"><p id="webinstap">Instagram</p></a>
+          </div>
+        </div>
+
+
+
+        <!--#6-->
+        <div class="card" style="width: 18rem;">
+          <!--modal-->
+          <button class="opnmodalcompu" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal6">
+            <img src="./img indumentaria/undef buzo.jpg" class="card-img-top" id="imgcompucard" alt="Ropa">
+          </button>
+
+          <div class="modal fade" id="exampleModal6" tabindex="-1" aria-labelledby="exampleModalLabel6"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel"></h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="./img indumentaria/undef buzo.jpg" class="card-img-top" alt="Ropa">
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- close modal-->
+
+          
+          <div class="card-body">
+            <h5 class="card-title">Undefined</h5>
+            <a href="/proyecto final/login.html"><button class="botonguardado"> 
+              <svg id="logoguardado" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-bookmark-plus" viewBox="0 0 16 16">
+                <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"/>
+                <path d="M8 4a.5.5 0 0 1 .5.5V6H10a.5.5 0 0 1 0 1H8.5v1.5a.5.5 0 0 1-1 0V7H6a.5.5 0 0 1 0-1h1.5V4.5A.5.5 0 0 1 8 4z"/>
+              </svg>
+            </button></a>
+
+            <p class="card-text">Oversise Hoodie - $12.000</p>
+            <a id="webinstabut" href="https://undefinedba.com" class="btn btn-outline-primary" target="_blank"><p id="webinstap">Sitio Web</p></a>
+            <a id="webinstabut" href="https://www.instagram.com/undefined_ba/" class="btn btn-outline-primary" target="_blank"><p id="webinstap">Instagram</p></a>
+          </div>
+        </div>
+      </div> 
+      
+
+
+      <!-- celular grid-->
+       
+
+      <div class="inducardscelu">
+
+        <!--#1-->
+
+        <!--modal-->
+        <div>
+          <button class="opnmodal" type="button" data-bs-toggle="modal" data-bs-target="#exampleModalcelu1">
+            <img class="imgindumentaria" src="./img indumentaria/buzz undef.png" alt="indumentaria">
+          </button>
+
+          <div class="modal fade" id="exampleModalcelu1" tabindex="-1" aria-labelledby="exampleModalceluLabel1" aria-hidden="true">
+            <div class="modal-dialog modal-fullscreen">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel"></h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img class="imgindumentariainmodal" src="./img indumentaria/buzz undef.png" alt="indumentaria">
+                  <br><br>
+                  <h4 class="lead">Undefined</h4>
+                  <a href="/proyecto final/login.html"><button class="botonguardadocelu"> 
+                    <svg id="logoguardado" xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-bookmark-plus" viewBox="0 0 16 16">
+                      <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"/>
+                      <path d="M8 4a.5.5 0 0 1 .5.5V6H10a.5.5 0 0 1 0 1H8.5v1.5a.5.5 0 0 1-1 0V7H6a.5.5 0 0 1 0-1h1.5V4.5A.5.5 0 0 1 8 4z"/>
+                    </svg>
+                  </button></a>
+                  <p class="pmodalcelu">Buzo - $12.000</p>
+                  <a href="https://undefinedba.com" id="btnmodalcelu" class="btn btn-primary" target="_blank"> Sitio Web</a>
+                  <p></p>
+                  <a href="https://www.instagram.com/undefined_ba/" id="btnmodalcelu" class="btn btn-primary" target="_blank">Instagram</a>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- close modal-->
+
+        <!--#2-->
+        <div>
+          <button class="opnmodal" type="button" data-bs-toggle="modal" data-bs-target="#exampleModalcelu2">
+            <img class="imgindumentaria" src="./img indumentaria/buzobullbennymotosport.png" alt="indumentaria">
+          </button>
+
+          <div class="modal fade" id="exampleModalcelu2" tabindex="-1" aria-labelledby="exampleModalceluLabel2" aria-hidden="true">
+            <div class="modal-dialog modal-fullscreen">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel"></h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img class="imgindumentariainmodal" src="./img indumentaria/buzobullbennymotosport.png" alt="indumentaria">
+                  
+                  <br><br>
+                  <h4 class="lead">Bullbenny</h4>
+                  <a href="/proyecto final/login.html"><button class="botonguardadocelu"> 
+                    <svg id="logoguardado" xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-bookmark-plus" viewBox="0 0 16 16">
+                      <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"/>
+                      <path d="M8 4a.5.5 0 0 1 .5.5V6H10a.5.5 0 0 1 0 1H8.5v1.5a.5.5 0 0 1-1 0V7H6a.5.5 0 0 1 0-1h1.5V4.5A.5.5 0 0 1 8 4z"/>
+                    </svg>
+                  </button></a>
+                  <p class="pmodalcelu">Buzo - $18.000</p>
+                  <a href="https://www.bullbenny.com.ar" id="btnmodalcelu" class="btn btn-primary" target="_blank"> Sitio Web</a>
+                  <p></p>
+                  <a href="https://www.instagram.com/bullbenny/" id="btnmodalcelu" class="btn btn-primary" target="_blank">Instagram</a>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <!--#3-->
+        <div>
+          <button class="opnmodal" type="button" data-bs-toggle="modal" data-bs-target="#exampleModalcelu3">
+            <img class="imgindumentaria" src="./img indumentaria/Pack-x3-Oversized-T-Shirt-Negra-1-scaled.jpg"alt="indumentaria">
+          </button>
+
+          <div class="modal fade" id="exampleModalcelu3" tabindex="-1" aria-labelledby="exampleModalceluLabel3" aria-hidden="true">
+            <div class="modal-dialog modal-fullscreen">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel"></h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img class="imgindumentariainmodal" src="./img indumentaria/Pack-x3-Oversized-T-Shirt-Negra-1-scaled.jpg"alt="indumentaria">
+                  
+                  <br><br>
+                  <h4 class="lead">BostonHype</h4>
+                  <a href="/proyecto final/login.html"><button class="botonguardadocelu"> 
+                    <svg id="logoguardado" xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-bookmark-plus" viewBox="0 0 16 16">
+                      <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"/>
+                      <path d="M8 4a.5.5 0 0 1 .5.5V6H10a.5.5 0 0 1 0 1H8.5v1.5a.5.5 0 0 1-1 0V7H6a.5.5 0 0 1 0-1h1.5V4.5A.5.5 0 0 1 8 4z"/>
+                    </svg>
+                  </button></a>
+                  <p class="pmodalcelu">Remeras x3 - $10.000</p>
+                  <a href="https://bostonhype.com.ar/" id="btnmodalcelu" class="btn btn-primary" target="_blank"> Sitio Web</a>
+                  <p></p>
+                  <a href="https://www.instagram.com/bostonhype.ar/" id="btnmodalcelu" class="btn btn-primary" target="_blank">Instagram</a>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <!--#4-->
+        <div>
+          <button class="opnmodal" type="button" data-bs-toggle="modal" data-bs-target="#exampleModalcelu4">
+            <img class="imgindumentaria" src="./img indumentaria/buzo undef.jpg" alt="indumentaria">
+          </button>
+
+          <div class="modal fade" id="exampleModalcelu4" tabindex="-1" aria-labelledby="exampleModalceluLabel4" aria-hidden="true">
+            <div class="modal-dialog modal-fullscreen">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel"></h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img class="imgindumentariainmodal" src="./img indumentaria/buzo undef.jpg" alt="indumentaria">
+                  <br><br>
+                  <h4 class="lead">Undefined</h4>
+                  <a href="/proyecto final/login.html"><button class="botonguardadocelu"> 
+                    <svg id="logoguardado" xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-bookmark-plus" viewBox="0 0 16 16">
+                      <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"/>
+                      <path d="M8 4a.5.5 0 0 1 .5.5V6H10a.5.5 0 0 1 0 1H8.5v1.5a.5.5 0 0 1-1 0V7H6a.5.5 0 0 1 0-1h1.5V4.5A.5.5 0 0 1 8 4z"/>
+                    </svg>
+                  </button></a>
+                  <p class="pmodalcelu">Buzo edicion Khea - $15.000</p>
+                  <a href="https://undefinedba.com" id="btnmodalcelu" class="btn btn-primary" target="_blank"> Sitio Web</a>
+                  <p></p>
+                  <a href="https://www.instagram.com/undefined_ba/" id="btnmodalcelu" class="btn btn-primary" target="_blank">Instagram</a>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <!--#5-->
+        <div>
+          <button class="opnmodal" type="button" data-bs-toggle="modal" data-bs-target="#exampleModalcelu5">
+            <img class="imgindumentaria" src="./img indumentaria/undef buzo.jpg" alt="indumentaria">
+          </button>
+
+          <div class="modal fade" id="exampleModalcelu5" tabindex="-1" aria-labelledby="exampleModalceluLabel5" aria-hidden="true">
+            <div class="modal-dialog modal-fullscreen">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel"></h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img class="imgindumentariainmodal" src="./img indumentaria/undef buzo.jpg" alt="indumentaria">
+                  <br><br>
+                  <h4 class="lead">Undefined</h4>
+                  <a href="/proyecto final/login.html"><button class="botonguardadocelu"> 
+                    <svg id="logoguardado" xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-bookmark-plus" viewBox="0 0 16 16">
+                      <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"/>
+                      <path d="M8 4a.5.5 0 0 1 .5.5V6H10a.5.5 0 0 1 0 1H8.5v1.5a.5.5 0 0 1-1 0V7H6a.5.5 0 0 1 0-1h1.5V4.5A.5.5 0 0 1 8 4z"/>
+                    </svg>
+                  </button></a>
+                  <p class="pmodalcelu">Buzo - $18.000</p>
+                  <a href="https://undefinedba.com" id="btnmodalcelu" class="btn btn-primary" target="_blank"> Sitio Web</a>
+                  <p></p>
+                  <a href="https://www.instagram.com/undefined_ba/" id="btnmodalcelu" class="btn btn-primary" target="_blank">Instagram</a>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+ 
+        <!--#6-->
+        <div>
+          <button class="opnmodal" type="button" data-bs-toggle="modal" data-bs-target="#exampleModalcelu6">
+            <img class="imgindumentaria" src="./img indumentaria/Remera bostonhype.png" alt="indumentaria">
+          </button>
+
+          <div class="modal fade" id="exampleModalcelu6" tabindex="-1" aria-labelledby="exampleModalceluLabel6" aria-hidden="true">
+            <div class="modal-dialog modal-fullscreen">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel"></h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img class="imgindumentariainmodal" src="./img indumentaria/Remera bostonhype.png" alt="indumentaria">
+                  <br><br>
+                  <h4 class="lead">BostonHype</h4>
+                  <a href="/proyecto final/login.html"><button class="botonguardadocelu"> 
+                    <svg id="logoguardado" xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-bookmark-plus" viewBox="0 0 16 16">
+                      <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"/>
+                      <path d="M8 4a.5.5 0 0 1 .5.5V6H10a.5.5 0 0 1 0 1H8.5v1.5a.5.5 0 0 1-1 0V7H6a.5.5 0 0 1 0-1h1.5V4.5A.5.5 0 0 1 8 4z"/>
+                    </svg>
+                  </button></a>
+                  <p class="pmodalcelu">Remera Printed negra - $5.525</p>
+                  <a href="https://bostonhype.com.ar/" id="btnmodalcelu" class="btn btn-primary" target="_blank"> Sitio Web</a>
+                  <p></p>
+                  <a href="https://www.instagram.com/bostonhype.ar/" id="btnmodalcelu" class="btn btn-primary" target="_blank">Instagram</a>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!--#7-->
+        <div>
+          <button class="opnmodal" type="button" data-bs-toggle="modal" data-bs-target="#exampleModalcelu7">
+            <img class="imgindumentaria" src="./img indumentaria/buzobostonhypemarron.png" alt="ropita">
+          </button>
+
+          <div class="modal fade" id="exampleModalcelu7" tabindex="-1" aria-labelledby="exampleModalceluLabel7" aria-hidden="true">
+            <div class="modal-dialog modal-fullscreen">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel"></h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img class="imgindumentariainmodal" src="./img indumentaria/buzobostonhypemarron.png" alt="ropita">
+                  <br><br>
+                  <h4 class="lead">BostonHype</h4>
+                  <a href="/proyecto final/login.html"><button class="botonguardadocelu"> 
+                    <svg id="logoguardado" xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-bookmark-plus" viewBox="0 0 16 16">
+                      <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"/>
+                      <path d="M8 4a.5.5 0 0 1 .5.5V6H10a.5.5 0 0 1 0 1H8.5v1.5a.5.5 0 0 1-1 0V7H6a.5.5 0 0 1 0-1h1.5V4.5A.5.5 0 0 1 8 4z"/>
+                    </svg>
+                  </button></a>
+                  <p class="pmodalcelu">Oversized Hoodie Marrón - $9.525</p>
+                  <a href="https://bostonhype.com.ar/" id="btnmodalcelu" class="btn btn-primary" target="_blank"> Sitio Web</a>
+                  <p></p>
+                  <a href="https://www.instagram.com/bostonhype.ar/" id="btnmodalcelu" class="btn btn-primary" target="_blank">Instagram</a>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <!--#8-->
+        <div>
+          <button class="opnmodal" type="button" data-bs-toggle="modal" data-bs-target="#exampleModalcelu8">
+            <img class="imgindumentaria" src="./img indumentaria/buz und.jpg" alt="indumentaria">
+          </button>
+
+          <div class="modal fade" id="exampleModalcelu8" tabindex="-1" aria-labelledby="exampleModalceluLabel8" aria-hidden="true">
+            <div class="modal-dialog modal-fullscreen">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel"></h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img class="imgindumentariainmodal" src="./img indumentaria/buz und.jpg" alt="indumentaria">
+                  <br><br>
+                  <h4 class="lead">Undefined</h4>
+                  <a href="/proyecto final/login.html"><button class="botonguardadocelu"> 
+                    <svg id="logoguardado" xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-bookmark-plus" viewBox="0 0 16 16">
+                      <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"/>
+                      <path d="M8 4a.5.5 0 0 1 .5.5V6H10a.5.5 0 0 1 0 1H8.5v1.5a.5.5 0 0 1-1 0V7H6a.5.5 0 0 1 0-1h1.5V4.5A.5.5 0 0 1 8 4z"/>
+                    </svg>
+                  </button></a>
+                  <p class="pmodalcelu">Buzo - $18.000</p>
+                  <a href="https://undefinedba.com" id="btnmodalcelu" class="btn btn-primary" target="_blank"> Sitio Web</a>
+                  <p></p>
+                  <a href="https://www.instagram.com/undefined_ba/" id="btnmodalcelu" class="btn btn-primary" target="_blank">Instagram</a>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+
+
+
+
+       
+
+
+
+      </div>
+
+
+    </main>
+    <footer>
+
+    </footer>
+  </div>
+  <script src="./indumentaria.js"></script>
+</body>
+
+</html>
