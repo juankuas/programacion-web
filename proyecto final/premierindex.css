@@ -1,3 +1,18 @@
+html{
+    scroll-behavior:smooth;
+}
+#videodiv{
+
+    width: 100vw;
+    height: 95vh; 
+
+}
+#videoindex{
+    height: 95vh;
+    width: 100vw;
+    position: absolute;
+    object-fit: cover;
+}
 
 #navbar-nav{
     margin-left: 60vw;
@@ -8,14 +23,14 @@
     font-size: 20px;
     margin-right: 6px;
     width: 100px;
-    transition: 1.5s;
+    transition: 0.5s;
 }
 #headerbutnsactive{
     color: #000000;
     font-size: 20px;
     margin-right: 6px;
     width: 100px;
-    transition: 1.5s;
+    transition: 0.5s;
 }
 
 #headerbutns:hover{
@@ -128,6 +143,7 @@
 #cardtext-center{
     width: 100vw;
     background-color: rgb(62, 48, 48);
+
     border-radius: 0%;
 }
 

@@ -1,4 +1,21 @@
 
+html{
+    scroll-behavior: smooth;
+}
+#videodiv{
+
+    width: 100vw;
+    height: 95vh; 
+
+}
+#videoindex{
+    height: 95vh;
+    width: 100vw;
+    position: absolute;
+    object-fit: cover;
+}
+
+
 #navbar-nav{
     margin-left: 60vw;
 }
@@ -134,7 +151,8 @@
 
 
 #slogan2{
-    color: white;
+
+    color: rgb(255, 255, 255);
     font-weight: 250;
 }
 

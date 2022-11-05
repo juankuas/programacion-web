@@ -1,13 +1,17 @@
-var headerbutns = document.getElementById("headerbutns")
+let headerbutns = document.getElementById("headerbutns")
 console.log(headerbutns)
 
 window.onscroll = function(headerbutns){
-    var top = window.scrollY;
+    let top = window.scrollY;
     console.log(top);
 
-    if (top>=880){
-        headerbutns.style.id="headerbutnsactive" 
+    if (top>=800){
+        document.getElementById("headerbutns").id="headerbutnsactive" 
+
     };
+    if (top<800){
+        document.getElementById("headerbutnsactive").id="headerbutns" 
+    }
     
 }
 
