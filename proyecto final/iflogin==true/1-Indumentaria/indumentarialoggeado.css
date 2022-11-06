@@ -3,8 +3,7 @@ body{
 }
 
 #headerrr{
-    abackground-color:rgb(16, 15, 15);
-    background-color: rgb(59, 48, 48);
+    background-color: rgb(33, 30, 30);
 }
 
 
@@ -43,9 +42,16 @@ body{
 .favoitoscontainer{
     display: flex;
     flex-wrap: wrap;
+    width: fit-content;
+    position: absolute;
+    justify-content: center;
 }
 .favoitoscontainer div{
-    margin-left: 10px;
+    background-color:rgb(255, 255, 255);
+
+    color: rgb(0, 0, 0);
+    margin-top: 10px;
+    border: none;
 }
 #imgcompucardfav{
     width: 288px;
@@ -107,6 +113,9 @@ body{
     font-size: 12px;
     display: inline;
     max-width: fit-content;
+}
+.paddfavsNOT{
+    display: none;
 }
 
 /*    add fav    */
@@ -230,13 +239,15 @@ body{
         font-size: 30px;
     }
 
-    .botonguardadocelu{
+    .botonguardado{
         position: absolute;
         margin-top: -35px;
-        margin-left: 80vw;
-        background-color: whitesmoke;
-        border: white;
+        margin-left: 195px;
+        background-color: transparent;
+        border-radius: 100%;
         z-index: 10;
+        border: 0;
+        width: 140px;
     }
 
     .pmodalcelu{
