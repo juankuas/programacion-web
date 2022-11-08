@@ -144,14 +144,15 @@ html{
 
 #cardtext-center{
     width: 100vw;
-    background-color: rgb(62, 48, 48);
+    abackground-color: rgb(62, 48, 48);
+    background-color: #000000;
     border-radius: 0%;
 }
 
 
 
 #slogan2{
-
+    height: 40px;
     color: rgb(255, 255, 255);
     font-weight: 250;
 }
@@ -210,9 +211,7 @@ html{
     color: rgb(252, 239, 165) ;
 }
 
-#descargarIcon{
-    margin-top: -4px;
-}
+
 
 #textomodal{
     color: rgb(252, 239, 165);
@@ -221,9 +220,10 @@ html{
 
 #appinfofooter{
     height: 50px;
+
 }
 #butnappinfo{
-    margin-top: -15px;
+    margin-top: -10px;
     height: 30px;
 }
 #pinfoapp{

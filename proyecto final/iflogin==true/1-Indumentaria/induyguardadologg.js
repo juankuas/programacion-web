@@ -32,7 +32,7 @@ function addToFavoritosClickedCompu(event){
 
 
 
-    addcardtofavoritosCompu(img, cardtitle, cardtext, addfav)
+    addcardtofavoritosCompu(img, cardtitle, cardtext)
 
 }
 
@@ -89,7 +89,7 @@ function addcardtofavoritosCompu(img, cardtitle, cardtext){
     favoritoscard.innerHTML = favoritosCardContent;
     favoitoscontainer.append(favoritoscard);
 
-    favoritoscard.querySelector('.btn_eliminar_de_favs').addEventListener('click', deleteCardFav, changeclassPADDFAVS)
+    favoritoscard.querySelector('.btn_eliminar_de_favs').addEventListener('click', deleteCardFav)
 
     
 
@@ -101,11 +101,6 @@ function deleteCardFav(event){
     const buttonCliked = event.target;
     buttonCliked.closest('.card').remove();
 
-}
-
-function changeclassPADDFAVS(addfav){
-    addfav.className="paddfavs"
-    
 }
 
 
