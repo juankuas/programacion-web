@@ -102,20 +102,24 @@ function deleteCardFavCompu(event){
 
 // celu
 let botonguardadoCelu = document.querySelectorAll(".botonguardadoCelu");
-botonguardado.forEach(addtofavoritosCelu => {
+botonguardadoCelu.forEach(addtofavoritosCelu => {
     addtofavoritosCelu.addEventListener('click', addToFavoritosClickedCelu)
 })
 
 function addToFavoritosClickedCelu(event){
-    const button = event.target;
-    const cardcelu = button.closest('.cardcelu')
+    const buttonCelu = event.target;
+    const cardcelu = buttonCelu.closest('.cardcelu')
     console.log(cardcelu)
 
-    const imgcelu = card.querySelector('.imgindumentaria').src;
-    const titlemodal = card.querySelector('.lead').textContent;
-    const pmodalcelu = card.querySelector('.pmodalcelu').textContent;
+    const imgcelu = cardcelu.querySelector('.imgindumentaria').src;
+    const titlemodal = cardcelu.querySelector('.lead').textContent;
+    const pmodalcelu = cardcelu.querySelector('.pmodalcelu').textContent;
 
+    const favoritosCardTextCelu = favoitoscontainer.getElementsByClassName("pmodalcelu");
 
+    for (var i = 0; i < favoritosCardTextCelu.length; i++) {
+        if (favoritosCardTextCelu[i].innerText === pmodalcelu) return;
+    }
 
 
     addcardtofavoritosCelu(imgcelu, titlemodal, pmodalcelu)
