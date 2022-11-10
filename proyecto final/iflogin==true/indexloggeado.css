@@ -292,15 +292,17 @@ html{
 
 
 
-
-
-
-
-
-
     #cardtext-center{
         width: 100vw;
   
+    }
+
+    #butnappinfo{
+        margin-top: 0px;
+        height: 30px;
+    }
+    #pinfoapp{
+        margin-top: -5px;
     }
 
     #aboutus{
