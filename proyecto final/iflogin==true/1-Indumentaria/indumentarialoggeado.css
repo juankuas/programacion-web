@@ -257,6 +257,10 @@ body{
         width: 140px;
     }
 
+    .botonguardadoCelu:hover{
+        color: red;
+    }
+
     .pmodalcelu{
         font-size: 20px;
         font-weight: 400;
