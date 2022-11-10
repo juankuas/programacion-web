@@ -1,5 +1,4 @@
-let headerbutns = document.getElementById("headerbutns")
-console.log(headerbutns)
+
 
 window.onscroll = function(headerbutns){
     let top = window.scrollY;

@@ -31,7 +31,10 @@ body{
     background-color: transparent;
     color: rgb(255, 69, 69);
     margin-top: 9px;
+    transition: 1s;
 }
+
+
 
 
 .modal-backdrop {
@@ -151,7 +154,10 @@ body{
     font-size: 14px;
 }
 
-#webinstabut{
+#instabut{
+    height: 25px;
+}
+#webbut{
     height: 25px;
 }
 #webinstap{
@@ -171,6 +177,7 @@ body{
     margin-top: 5px;
     margin-left: 85px;
 }
+
 
 
 @media only screen and (max-width: 668px){
@@ -239,7 +246,7 @@ body{
         font-size: 30px;
     }
 
-    .botonguardado{
+    .botonguardadoCelu{
         position: absolute;
         margin-top: -35px;
         margin-left: 195px;
