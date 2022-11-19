@@ -98,7 +98,10 @@
     color: rgb(0, 0, 0);
 }
 
+.lead, placeholder{
+    padding-left: 10px;
 
+}
 
 
 @media only screen and (max-width:668px){
