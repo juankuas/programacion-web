@@ -38,6 +38,8 @@ function addToFavoritosClickedCompu(event){
 
     let hrefweb = card.querySelector('#webbut').getAttribute('href')
     let hrefinsta = card.querySelector('#instabut').getAttribute('href')
+
+
     
     
 
@@ -116,6 +118,7 @@ function addToFavoritosClickedCelu(event){
     let pmodalcelu = cardcelu.querySelector('.pmodalcelu').textContent;
     let CeluWebHref = cardcelu.querySelector('#CeluWebHref').getAttribute('href')
     let CeluInstaHref = cardcelu.querySelector('#CeluInstaHref').getAttribute('href')
+    
 
     const favoritosCardTextCelu = favoitoscontainer.getElementsByClassName("pmodalcelu");
 

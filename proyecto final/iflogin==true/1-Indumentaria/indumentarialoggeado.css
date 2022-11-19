@@ -117,9 +117,7 @@ body{
     display: inline;
     max-width: fit-content;
 }
-.paddfavsNOT{
-    display: none;
-}
+
 
 /*    add fav    */
 .botonguardado{
@@ -135,11 +133,12 @@ body{
 .botonguardado:hover{
     color: rgb(255, 69, 69);
 }
+
+
 #logoguardado{
     color: rgb(255, 69, 69);
     z-index: 10;
 }
-
 
 
 
