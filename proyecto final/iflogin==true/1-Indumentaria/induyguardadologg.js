@@ -142,7 +142,7 @@ function addcardtofavoritosCelu(imgcelu, titlemodal, pmodalcelu){
     console.log(pmodalcelu)
     let favoritoscardCelu = document.createElement('div');
     const favoritosCardContentCelu = `
-    <div class="cardcelufav" style="width: 14rem; heigth:20rem;">
+    <div class="cardcelufav" style="width: 18rem; heigth:22rem;">
           
       <img src="${imgcelu}" class="imgcardfav" alt="Ropa">
 
