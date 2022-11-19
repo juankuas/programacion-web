@@ -98,7 +98,7 @@
     color: rgb(0, 0, 0);
 }
 
-.lead, placeholder{
+.lead::placeholder{
     padding-left: 10px;
 
 }

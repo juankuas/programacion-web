@@ -266,12 +266,27 @@ body{
         font-weight: 400;
     }
 
-    #btnmodalcelu{
+    #CeluWebHref{
         width:93vw;
+    }
+
+    #CeluInstaHref{
+        width:93vw;   
     }
 
     .modal-content{
         background-color: whitesmoke;
     }
+
+    .imgcardfav{
+        margin-left: 4vw;
+        height: 250px;
+        width: 190px;
+    }
+
+    .card-bodyfav{
+        margin-left: 4vw;
+    }
+
 }
 
