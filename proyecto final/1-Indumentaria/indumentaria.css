@@ -79,17 +79,19 @@ body{
     border: 0;
 }
 #logoguardado{
-    color: rgb(0, 0, 0);
+    color: rgb(255, 0, 0);
     transition: 1.5s;
 }
-
 
 .card-text{
     font-weight: 300;
     font-size: 14px;
 }
 
-#webinstabut{
+#instabut{
+    height: 25px;
+}
+#webbut{
     height: 25px;
 }
 #webinstap{

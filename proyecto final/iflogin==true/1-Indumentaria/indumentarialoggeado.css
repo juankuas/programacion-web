@@ -247,8 +247,8 @@ body{
 
     .botonguardadoCelu{
         position: absolute;
-        margin-top: -35px;
-        margin-left: 225px;
+        margin-top: -30px;
+        margin-left: 235px;
         background-color: transparent;
         border-radius: 100%;
         z-index: 10;
