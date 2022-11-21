@@ -129,7 +129,6 @@ function addToFavoritosClickedCelu(event){
 
     addcardtofavoritosCelu(imgcelu, titlemodal, pmodalcelu, CeluInstaHref, CeluWebHref)
 }
-//
 
 
 
