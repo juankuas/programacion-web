@@ -159,7 +159,7 @@ html{
 
 #aboutus{
     width: 100vw;
-    height: 100vh;
+    height: 97vh;
     background-color: rgb(252, 239, 165);
     display: flex;
     flex-wrap: nowrap;
@@ -200,7 +200,14 @@ html{
     margin-left: 22vw;
 }
 
+#footer1{
+    height: 3vh;
+    background-color: rgb(255, 244, 226);
+}
+#footerP{
+    margin-left: 46vw;
 
+}
 #modalapp{
     background-color: black;
 }
