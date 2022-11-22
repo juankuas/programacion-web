@@ -43,7 +43,7 @@ function addToFavoritosClickedCompu(event){
     
     
 
-    //card.querySelector('.paddfavs').className = "paddfavsNOT", esto es viejo, capaz lo vuelvo a usar (no creo)
+    card.querySelector('.paddfavs').style.color = "red"
 
 
 
@@ -126,6 +126,7 @@ function addToFavoritosClickedCelu(event){
         if (favoritosCardTextCelu[i].innerText === pmodalcelu) return;
     }
 
+    cardcelu.querySelector('.paddfavs').style.color = "red"
 
     addcardtofavoritosCelu(imgcelu, titlemodal, pmodalcelu, CeluInstaHref, CeluWebHref)
 }
