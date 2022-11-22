@@ -319,6 +319,10 @@ html{
     .AboutUsBut{
         display: none;
     }
+
+    #footer1{
+      display: none;
+    }
     
 }
 
@@ -332,5 +336,9 @@ html{
     .AboutUsBut{
         display: none;
     }
+
+    #footer1{
+        display: none;
+      }
     
 }

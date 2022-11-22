@@ -319,6 +319,11 @@ html{
     #aboutus{
         display: none;
     }
+
+
+    #footer1{
+        display: none;
+      }
 }
 
 @media only screen and (min-width:768px ) and (max-width: 1143px){
@@ -328,4 +333,7 @@ html{
     }
 
     
+    #footer1{
+        display: none;
+      }
 }
